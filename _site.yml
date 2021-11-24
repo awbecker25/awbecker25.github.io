@@ -1,0 +1,18 @@
+name: "professional-website"
+navbar:
+  title: "Alec Becker"
+  left:
+    - text: "About me"
+      href: index.html
+    - text: "Example work"
+      href: projects.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/alec-becker-a20b35126/
+    - icon: fa-github fa-lg
+      href: http://github.com/awbecker25/
+output:
+  html_document:
+    theme: flatly
